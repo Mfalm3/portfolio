@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Home</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/app.css">
+        <link rel="stylesheet"
+            href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please upgrade your browser to improve your experience.</p>
+        <![endif]-->
+
+        <nav class="navbar navbar-light navbar-expand-sm bg-transparent fixed-top" id="top-nav">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img class="my-logo" src="assets/img/logo.png" width="30" height="30" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link click" id="lang">Languages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click" id="fw">Frameworks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click" id="pr">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click" id="cn" data-toggle="modal" data-target="#contactModal">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <input type="hidden" value="+254718487108" id="#foo">
+        </nav>
+
+            <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalTitle"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="contactModalTitle">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-4">
+                                    <a class="btn btn-primary" id="tel" data-clipboard-target="#foo" style="color:white">Phone <i class="fa fa-phone"></i></a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="" class="btn btn-success">Github <i class="fa fa-github"></i></a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="" class="btn btn-danger">Gmail <i class="fa fa-google"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <main id="app">
+            <section class="bg-overlay no-flicker">
+                <div class="text-center">
+                    <h1 class="hero-title">Welcome to my workshop</h1>
+                    <h4 class="hero-desc">I am a craftsman. Herein is a curated list of my craftings</h4>
+                </div>
+            </section>
+            <section id="languages" class="container mt-4 mt-4 hr">
+                <div class="text-center">
+                    <h3>Languages</h3>
+                    <hr class="style2">
+                </div>
+                <div class="card-deck">
+                    <div class="card card-bg2 col-md-3 col-sm-6 mr-2 mb-2 shadow">
+                        <img class="card-img-top" src="" alt="">
+                        <div class="card-body">
+                            <p class="text-center">
+                                <i class="devicon-php-plain iconz"></i>
+                            </p>
+                            <p class="card-text text-center">PHP</p>
+                        </div>
+                    </div>
+                    <div class="card card-bg4 col-md-3 col-sm-6 mr-2 mb-2 shadow">
+                        <img class="card-img-top" src="" alt="">
+                        <div class="card-body">
+                            <p class="text-center">
+                                <i class="devicon-javascript-plain iconz"></i>
+                            </p>
+                            <p class="card-text text-center">JavaScript</p>
+                        </div>
+                    </div>
+                    <div class="card card-bg1 col-md-3 col-sm-6 mr-2 mb-2 shadow">
+                        <img class="card-img-top" src="" alt="">
+                        <div class="card-body">
+                            <p class="text-center">
+                                <i class="devicon-python-plain iconz"></i>
+                            </p>
+                            <p class="card-text text-center">Python</p>
+                        </div>
+                    </div>
+                    <div class="card card-bg3 col-md-3 col-sm-6 mr-2 mb-2 shadow">
+                        <img class="card-img-top" src="" alt="">
+                        <div class="card-body">
+                            <p class="text-center">
+                                <i class="devicon-vuejs-plain iconz"></i>
+                            </p>
+                            <p class="card-text text-center">VueJS</p>
+                        </div>
+                    </div>
+                    <div class="card card-bg5 col-md-3 col-sm-6 mr-2 mb-2 shadow">
+                        <img class="card-img-top" src="" alt="">
+                        <div class="card-body">
+                            <p class="text-center">
+                                <i class="devicon-nodejs-plain iconz"></i>
+                            </p>
+                            <p class="card-text text-center">NodeJS</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="frameworks" class="container mt-4 mt-4 hr">
+                <div class="text-center">
+                    <h3>Frameworks & Libraries</h3>
+                    <hr class="style2">
+                </div>
+                <div id="flibs">
+                    <frameworks-list></frameworks-list>
+                </div>
+            </section>
+            <section id="projects" class="container mt-4 mt-4 hr">
+                <div class="text-center">
+                    <h3>Latest Projects</h3>
+                    <hr class="style2">
+                </div>
+                <div id="reposList">
+                    <repos-list></repos-list>
+                </div>
+            </section>
+        </main>
+        <footer class="my-footer bg-dark">
+                <a href="#">Back to top</a>
+        </footer>
+        
+        <script src="assets/js/app.js" defer></script>
+    </body>
+</html>
