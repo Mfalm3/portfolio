@@ -24,7 +24,7 @@
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.41.0",
-    "webpack-cli": "^3.3.3"
+    "webpack-cli": "^4.6.0"
   },
   "dependencies": {
     "@saeris/vue-spinners": "^1.0.8",
